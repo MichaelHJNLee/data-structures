@@ -36,7 +36,7 @@ stackMethods.size = function(){
 	for (var key in this.storage){
 		counter++;
 	}
-	return counter;
-}
+	return counter; 
+} 
 
 

@@ -25,7 +25,7 @@ var Stack = function() {
     var deleted = storage[last];
     delete storage[last];
     return deleted;
-  };
+  }; 
 
   someInstance.size = function() {
     var counter = 0;
@@ -36,4 +36,4 @@ var Stack = function() {
   };
 
   return someInstance;
-};
+}; 

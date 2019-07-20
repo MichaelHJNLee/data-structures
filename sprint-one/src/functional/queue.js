@@ -34,7 +34,7 @@ var Queue = function() {
       counter++;
     }
     return counter;
-  };
+  }; 
 
   return someInstance;
-};
+}; 
